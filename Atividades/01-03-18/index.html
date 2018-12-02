@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+	<head>
+		<title>Título</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- CABECALHO SUP -->
+		<div class="pre_cabecalho">
+			<div class="pre_cb_interna">
+				<ul>
+					<li>
+						<div class="pre_cb_interna_texto">
+							<img src="img/ico-01.png" /><span>Rua Francisco Paes, 84, Centro</span>
+						</div>
+					</li>
+					<li>
+						<div class="pre_cb_interna_texto">
+							<img src="img/ico-02.png" /><span>Seg. à Sex. das 08h00 às 21h00</span>
+						</div>
+					</li>
+					<li>
+						<div class="pre_cb_interna_texto">
+							<img src="img/ico-03.png" /><span>+55 (12) 3042-1924</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- CABECALHO SUP -->
+		
+		<!-- CABECALHO INF -->
+		<div class="cabecalho">
+			<div class="cb_logo">
+				<img src="img/logo.png"/>
+			</div>
+			<div class="menu_resp">
+				<img src="img/menu.png" />
+			</div>
+			<div class="cb_menu">
+				<nav>
+					<ul>
+						<li>
+							<a href="#">HOME</a>
+						</li>
+						<li>
+							<a href="#">A EMPRESA</a>
+						</li>
+						<li>
+							<a href="#">PRODUTOS</a>
+						</li>
+						<li>
+							<a href="#">SERVIÇOS</a>
+						</li>
+						<li>
+							<a href="#">CONTATO</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- CABECALHO INF -->
+		
+		<!-- IMAGEM -->
+		<div class="imagem">
+		</div>
+		<!-- IMAGEM -->
+		
+		<!-- SERVICOS -->
+		<div class="serv_titulo">
+			<span>NOSSOS SERVIÇOS</span>
+		</div>
+		
+		<div class="servicos flex">
+			<div class="serv_blc">
+				<div class="icone_servicos">
+					<img src="img/ico_serv_01.png" />
+				</div>
+				<div class="serv_texto01">
+					Pesquisa de Mercado
+				</div>
+				<div class="divisor">
+				</div>
+				<div class="serv_texto02">
+					Avaliação da viabilidade, estabilidade e rentabilidade de uma empresa, sub-empresa ou projeto.
+				</div>
+			</div>
+			
+			<div class="serv_blc">
+				<div class="icone_servicos">
+					<img src="img/ico_serv_02.png" />
+				</div>
+				<div class="serv_texto01">
+					Pesquisa de Mercado
+				</div>
+				<div class="divisor">
+				</div>
+				<div class="serv_texto02">
+					Avaliação da viabilidade, estabilidade e rentabilidade de uma empresa, sub-empresa ou projeto.
+				</div>
+			</div>
+			
+			<div class="serv_blc">
+				<div class="icone_servicos">
+					<img src="img/ico_serv_03.png" />
+				</div>
+				<div class="serv_texto01">
+					Pesquisa de Mercado
+				</div>
+				<div class="divisor">
+				</div>
+				<div class="serv_texto02">
+					Avaliação da viabilidade, estabilidade e rentabilidade de uma empresa, sub-empresa ou projeto.
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		<!-- SERVICOS -->
+		
+		<!-- VIDEO -->
+		<div class="videos_geral">
+			<div class="videos_dentro flex">
+				<div class="videos flex-item-1">
+					<video class="player_video" style="background:#000" controls="" preload="none" poster="img/hqdefault.webp">
+						<source src="videos/video01.mp4" type="video/mp4"> 
+						<source src="videos/video01.webm" type="video/webm">
+					</video>
+				</div>
+				<div class="descricao_videos flex-item-1">
+					<p class="vid_titulo">
+						O que as pessoas dizem
+					</p>
+					<p class="vid_texto">
+						A equipe da Kinney electrical pode identificar problemas e tentar fornecer soluções em todos os aspectos do gerenciamento e administração de fundos e irá orientá-lo com seus conhecimentos aprofundados sempre que for solicitado.<br /><br /> Continue assim!
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- VIDEO -->
+		
+		<!-- FORMULÁRIO -->
+		<div class="formulario_geral">
+
+        <div class="serv_titulo">
+			<span>FORMULÁRIO DE CONTATO</span>
+		</div>
+		
+		<form name="formPHP" id="formPHP" method="post" action="formulario.php">
+		
+		<fieldset>
+			<legend>Área</legend>
+			<div class="form-group">
+				<div class="col-sm-12">
+					<select name="Area" id="Area" title="Área" class="form-control" required="required">
+						<option value=""></option>
+						<option value="administrativo">Administrativo</option>
+						<option value="financeiro">Financeiro</option>
+						<option value="tecnico">Técnico</option>
+					</select>
+				</div>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Dados Pessoais</legend>
+			<div class="col-sm-12">
+				<label for="Nome">* Nome completo:</label>
+				<input name="Nome" type="text" maxlength="70" id="Nome" class="form-control" required="required">
+			</div>
+			<div class="col-sm-4">
+				<label for="Cpf">* CPF:</label>
+				<input name="Cpf" type="text" maxlength="14" id="Cpf" class="form-control" required="required">
+			</div>
+			<div class="col-sm-4">
+				<label for="DataNasc">* Data de nascimento:</label>
+				<input name="DataNasc" type="text" maxlength="10" id="DataNasc" class="form-control" required="required">
+			</div>
+			<div class="col-sm-4">
+				<label for="Sexo">* Sexo:</label>
+				<select name="Sexo" id="Sexo" class="form-control" required="required">
+					<option value=""></option>
+					<option value="F">FEMININO</option>
+					<option value="M">MASCULINO</option>
+				</select>
+			</div>
+		</fieldset>
+				
+		<fieldset>
+			<legend>Endereço</legend>
+			<div class="form-group">
+				<div class="col-sm-9">
+					<label for="Endereco">* Endereço:</label>
+					<input name="Endereco" type="text" maxlength="60" id="Endereco" class="form-control" required="required">
+				</div>
+				<div class="col-sm-3">
+					<label for="EnderecoNumero">* Número:</label>
+					<input name="EnderecoNumero" type="text" maxlength="60" id="EnderecoNumero" class="form-control" required="required">
+				</div>
+				<div class="col-sm-6">
+					<label for="Bairro">* Bairro:</label>
+					<input name="Bairro" type="text" maxlength="30" id="Bairro" class="form-control" required="required">
+				</div>
+				<div class="col-sm-6">
+					<label for="Cidade">* Cidade:</label>
+					<input name="Cidade" type="text" maxlength="30" id="Cidade" class="form-control" required="required">			
+				</div>
+				<div class="col-sm-6">
+					<label for="Estado">* Estado:</label>
+					<input name="Estado" type="text" maxlength="30" id="Estado" class="form-control" required="required">
+				</div>
+				
+				<div class="col-sm-6">
+					<label for="Cep">* CEP:</label>
+					<input name="Cep" type="text" maxlength="9" id="Cep" class="form-control" required="required">
+				</div>
+			</div>
+		</fieldset>
+
+		<fieldset>
+			<legend>Dados de contato</legend>
+			<div class="form-group">
+				<div class="col-sm-6">
+					<label for="Email">* E-mail:</label>
+					<input name="Email" type="text" maxlength="50" id="Email" class="form-control" required="required">
+				</div>
+				<div class="col-sm-6">
+					<label for="Tel">* Telefone:</label>
+					<input name="Tel" type="text" maxlength="15" id="Tel" class="form-control" required="required">
+				</div>
+			</div>
+		</fieldset>
+
+				
+		<div class="botao_enviar">
+			<input type="submit" name="btnEnviar" value="Enviar" id="btnEnviar" class="btn btn-primary">
+		</div>
+		
+		</form>
+			
+		</div>
+		<!-- FORMULÁRIO -->
+		
+		<!-- FOOTER -->
+		<footer>
+			2018 © Kinney Electrical
+		</footer>
+		<!-- FOOTER -->
+		
+	</body>
+</html>

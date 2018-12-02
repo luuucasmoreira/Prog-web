@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+ 	 <script type="text/javascript" src="script.js"></script>
+	 <title> Exercicio 1 - Carro </title>
+	 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+ </head>
+
+ <body>
+<form name="form" action="#" method="post">
+
+	<fieldset>
+		 <legend>CARRO</legend>
+		 <table cellspacing="10">
+			  <tr>
+				   <td>
+				   		<label for="velo_atual">Velocidade atual: </label>
+				   </td>
+				   <td align="left">
+				    	<input type="text" name="velo_atual" value="100">
+				   </td>
+			  </tr>
+			  <tr>
+				   <td align="left">
+				    	<input type="text" name="aviso" value=""> 
+				   </td>
+			  </tr>
+			
+		</table>
+		<input type="button" name="acelerar" value="Acelerar" id="acelerar" onclick="upVelo(this.form)">		
+		<input type="button" name="frear" value="Frear" id="frear" onclick="downVelo(this.form)">
+
+	</fieldset>
+</form>
+
+ </body>
+</html>

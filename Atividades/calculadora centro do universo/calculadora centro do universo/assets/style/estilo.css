@@ -1,0 +1,33 @@
+*{
+	-webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+fieldset{
+	width: 500px;
+	margin: auto;
+	font-size: 18px;
+	font-weight: bold;
+}
+table{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	border-spacing: 20px;
+}
+
+table td{
+	width:50px;
+	height: 80px;
+	background-color: #d6d6c2;
+	font-size: 24px;
+}
+.visor{
+	background-color: yellow;
+	text-align: center;
+	line-height: 80px;
+}
+.cor{
+	background-color: gray;
+}

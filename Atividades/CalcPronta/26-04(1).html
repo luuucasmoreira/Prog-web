@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+	<head>
+		<title>CALCULADORA</title>
+		<meta charset ="UTF-8"/>
+		<script type="text/javascript" src="calcular.js"></script>
+	</head>
+	<body>
+		<p id="exibe"></p>
+		<div>
+			<!-- CALCULADORA 1-->
+			<fieldset><legend>CALCULADORA 1</legend>		
+				<form action="" name="calcular1" method="post">
+					<input type="text" name="numero1" id="numero1" value="">
+					<input type="text" name="operacao" id="operacao" value="">
+  					<input type="text" name="numero2" id="numero2" value=""><br><br>
+  					<input type="text" name="resultado" id="resultado" value=""><br><br>
+					<input type="button" name="Calcular" value="Calcular" id="Calcular" onclick="Calc1(this.form);">
+					<input type="button" name="Limpar" value="Limpar" id="Limpar" onclick="limpar(this.form);">	
+				</form>
+			</fieldset>
+
+			<!-- CALCULADORA 2-->
+			<fieldset><legend>CALCULADORA 2</legend>		
+				<form action="" name="calcular2" method="post">
+					<input type="text" name="numero1" id="numero1" value="">
+  						<select name="operacao">
+    						<option value="soma" id="soma">+</option>
+    						<option value="subtracao" id="subtracao">-</option>
+    						<option value="divisao" id="divisao">/</option>
+    						<option value="multiplicacao" id="multiplicacao">*</option>
+  						</select>
+  					<input type="text" name="numero2" id="numero2" value=""><br><br>
+  					<input type="text" name="resultado" id="resultado" value=""><br><br>
+					<input type="button" name="Calcular" value="Calcular" id="Calcular" onclick="Calc2(this.form);">
+					<input type="button" name="Limpar" value="Limpar" id="Limpar" onclick="limpar(this.form);">	
+				</form>
+			</fieldset>
+
+			<!-- CALCULADORA 3-->
+			<fieldset><legend>CALCULADORA 3</legend>		
+				<form action="" name="calcular3" method="post">
+					<input type="text" name="numero1" id="numero1" value="">
+  						<select name="operacao">
+    						<option value="soma" id="soma">+</option>
+    						<option value="subtracao" id="subtracao">-</option>
+    						<option value="divisao" id="divisao">/</option>
+    						<option value="multiplicacao" id="multiplicacao">*</option>
+    						<option value="porcentagem" id="porcentagem">%</option>
+  						</select>
+  					<input type="text" name="numero2" id="numero2" value=""><br><br>
+  					<input type="text" name="resultado" id="resultado" value=""><br><br>
+					<input type="button" name="Calcular" value="Calcular" id="Calcular" onclick="Calc3(this.form);">
+					<input type="button" name="Limpar" value="Limpar" id="Limpar" onclick="limpar(this.form);">	
+				</form>
+			</fieldset>
+
+		</div>
+ 	</body>
+</html>

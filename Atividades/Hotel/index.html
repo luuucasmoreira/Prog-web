@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Exemplo 01</title>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="hotel.js"></script>
+	</head>
+	<body>
+		<div style="float: left; width: 500px; padding: 10px">
+			<fieldset>
+				<legend>Hotel </legend>
+				<div>
+					<img src="hotel.jpg" align="center" width="300px" height="250px">					
+				</div>
+				<form name="formhotel">
+					<br><p>
+					Nome: <input type="text" name="nome" value="" id="nome"><br><p>
+					E-mail: <input type="text" name="email" value="" id="email"><br><p>
+					Telefone: <input type="text" name="telefone" value="" id="telefone"><br><p>
+					Quartos: <input type="text" name="quartos" value="" id="quartos"><br><p>
+					Dias: <input type="text" name="dias" value="" id="dias"><br><p>
+					Data: <input type="text" name="data" value="" id="data"><br><p>
+					<input type="button" name="Reservar" value="Reservar" id="Reservar" onclick="fazerreserva(this.form);">
+				</form>	
+			</fieldset>
+		</div>
+		<div style="float: right; width: 500px; padding: 10px">
+			<fieldset>
+				<legend>Reservas </legend>
+					Reservas: 
+					<p id="exibe"></p>
+				</form>	
+			</fieldset>
+
+		</div>
+	</body>
+</html>

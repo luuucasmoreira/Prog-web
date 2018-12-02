@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang ="pt-br">
+	<head>
+		<title>	CALCULADORA	</title>
+		<meta charset="UTF-8" />
+
+	</head>
+	
+	<body>
+		<form name="calcform" method="post" action="">
+			<fieldset>
+				<legend>Calculadora</legend>
+				<div class="visor">
+					<input type="text" name="visor" id="visor">
+				</div>
+				<div class="calc">
+					<div>
+						<div class="calc_blocos">
+							<!-- 1° valor--><input type="button" name="num7" class="num" value="7" id="num7" onclick="calcNum(7)" />
+							<!-- 2° valor--><input type="button" name="num4" class="num" value="8" id="num4" onclick="calcNum(8)" />
+							<!-- 3° valor--><input type="button" name="num1" class="num" value="9" id="num1" onclick="calcNum(9)" />
+							<!-- 13° valor--><input type="button" name="somar" class="oper" value="+" id="somar" onclick="calcParse('somar')" />
+						</div>
+						<div class="calc_blocos">
+							<!-- 5° valor--><input type="button" name="num8" class="num" value="4" id="num8" onclick="calcNum(8)" />
+							<!-- 6° valor--><input type="button" name="num5" class="num" value="5" id="num5" onclick="calcNum(5)" />
+							<!-- 7° valor--><input type="button" name="num2" class="num" value="6" id="num2" onclick="calcNum(2)" />
+							<!-- 8° valor--><input type="button" name="subtrair" class="oper" value="-" id="subtrair" onclick="calcParse('subtrair')" />
+						</div>
+						<div class="calc_blocos">
+							<!-- 9° valor--><input type="button" name="num9" class="num" value="1" id="num9" onclick="calcNum(9)" />
+							<!-- 10° valor--><input type="button" name="num6" class="num" value="2" id="num6" onclick="calcNum(6)" />
+							<!-- 11° valor--><input type="button" name="num3" class="num" value="3" id="num3" onclick="calcNum(3)" />
+							<!-- 12° igual--><input type="button" name="multiplicar" class="oper" value="*" id="multiplicar" onclick="calcParse('multiplicar')" />
+						</div>
+						<div class="calc_blocos">
+							<!-- 4° limpar--><input type="button" name="limpar" class="num" value="AC" id="limpar" onclick="calcLimpar()" />
+							<!-- 14° valor--><input type="button" name="num0" class="num" value="0" id="num0" onclick="calcNum(0)" />
+							<!-- 12° igual--><input type="button" name="igual" class="num" value="=" id="igual" onclick="calcParse('Resultado')" />
+							<!-- limpar--><input type="button" name="dividir" class="oper" value="/" id="dividir" onclick="calcParse('dividir')" />
+						</div>
+					</div>
+					
+				</div>
+				
+					
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

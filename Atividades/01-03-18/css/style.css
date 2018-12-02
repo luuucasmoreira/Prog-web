@@ -1,0 +1,194 @@
+body{ /*  zerar margem documento  */
+	margin: 0px;
+	padding: 0px;
+	}
+
+
+/* CAB SUP*/
+.pre_cabecalho{
+	background-color: #F2F3F8;
+	border-bottom: 1px solid #E5E7E9;
+	} /* o ponto(.) serve para mostrar pro código que a escrita pertence a uma classe (div)*/
+.pre_cb_interna{
+	font-family: Helvetica, Arial, san-serif;
+	font-size: 0.8em;
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pre_cb_interna ul{
+	padding: 15px; /* margem interna */
+	margin: 0px;
+	display: flex; /*para flutuar, ficar um do lado do outro*/
+	list-style: none; /*remover as bolinhas da lista*/
+}
+.pre_cb_interna ul li{
+	padding-right: 40px; /*Cria a separação entre os itens do menu*/
+}
+
+.pre_cb_interna_texto{
+	display: table;
+}
+
+.pre_cb_interna_texto img{
+	margin-right: 10px;
+	vertical-align:middle;
+}
+
+.pre_cb_interna_texto span{
+	vertical-align:middle;
+}
+
+/* CAB INF*/
+.cabecalho{
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.cb_logo{
+	width: 15%;
+}
+
+.cb_menu{
+	width: 85%;
+}
+
+.cb_menu nav{
+	max-width: 90%;
+	display: block;
+	margin-left: 10%;
+}
+
+.cb_menu nav ul {
+	display: flex;
+	max-width: 100%;
+	list-style: none;
+}
+
+.cb_menu nav ul li{
+	flex: 1 1 auto; /*serve para deixar um ao lado do outro sem usar o float*/
+
+}
+
+.cb_menu nav a {
+	color: #000;
+	font-family: Helvetica, Arial, san-serif;
+	font-weight: bold;
+	font-size: 1em;
+	display: flex;
+	padding: 30px 5px;
+	text-decoration: none;
+
+}
+
+.cb_menu nav a:hover {
+	color: #22aad3;
+}
+
+.menu_resp {
+	display: none;
+
+}
+/* IMAGEM */
+.imagem{
+	width: 100%;
+	height: 800PX;
+	background-image: url("../img/background.jpg");
+	background-repeat:no-repeat; 
+	background-attachment:fixed;
+	background-position: center;
+}
+
+/* SERVIÇOS */
+.serv_titulo{
+	width: 100%;
+	padding: 80px 0px 40px 0px;
+	text-align: center;
+	font-family: Helvetica, Arial, san-serif;
+	font-size:2em ;
+	font-weight: bold;
+}
+
+.servicos{
+	max-width: 980px;
+	margin-right:auto;
+	margin-left: auto;
+	padding: 80px;
+	display: flex;
+}
+
+.serv_blc{
+	border: solid 1px #eee;
+	margin: 2%;
+	flex:1;
+	min-width: 25%; /*serve para colocar uyma largura minima*/
+}
+
+.flex{
+	flex-wrap: wrap;
+}
+
+.icone_servicos{
+	max-width: 100px;
+	padding: 20px 0px;
+	margin-right:auto;
+	margin-left: auto;
+}
+
+.serv_texto01{
+	text-align: center;
+	font-family: helvetica,Arial,san-serif;
+	font-weight: bold;
+	font-size: 1.2em
+	padding:20px 10px; 
+}
+
+
+
+.serv_texto02{
+		text-align: center;
+	font-family: helvetica,Arial,san-serif;
+	font-size: 0.9em;
+	padding:20px 10px 40px 10px;
+	color: rgba(0,0,0,0.5);
+}
+
+.divisor{}
+
+.flex-item-1{}
+
+.separa_box{}
+
+/* VIDEOS */
+.videos_geral{}
+.videos_dentro{}
+.videos{}
+.descricao_videos{}
+.vid_titulo{}
+.vid_texto{}
+
+/* FORMULARIO */
+input{}
+select{}
+fieldset{}
+legend{}
+.formulario_geral{}
+.form-group{}
+.form-control{}
+
+.col-sm-12, .col-sm-9, .col-sm-6, .col-sm-4, .col-sm-3{}
+
+.col-sm-12{}
+.col-sm-9{}
+.col-sm-6{}
+.col-sm-4{}
+.col-sm-3{}
+
+.botao_enviar{}
+.btn{}
+.btn-primary{}
+
+/* FOOTER */
+footer{}
